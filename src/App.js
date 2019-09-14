@@ -5,7 +5,7 @@ import M from "materialize-css/dist/js/materialize.min.js";
 
 import "./App.css";
 
-import { Login } from "./containers";
+import { Login, Home, ActProgramadas } from "./containers";
 
 const App = () => {
   useEffect(() => {
@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <Fragment>
-      <Login />
+      <Home />
     </Fragment>
   );
 };
